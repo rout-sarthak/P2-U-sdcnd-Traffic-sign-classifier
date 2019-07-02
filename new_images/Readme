@@ -1,0 +1,8 @@
+#introduction to 2nd project of Udacity self driving car nanodegree program
+#Traffic sign classifier
+P = I;
+Q = I;
+numOfRows = size(I, 1);
+numOfColumns = size(I, 2);
+cornerness = zeros(numOfRows, numOfColumns);
+[m,n]=size(I);
